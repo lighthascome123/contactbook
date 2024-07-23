@@ -2,7 +2,7 @@ import axios from 'axios';
 import authHeader from './authHeader';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5000/api'
+  baseURL: 'https://contactbook-api-tklk.onrender.com/api'
 });
 
 instance.interceptors.request.use(
